@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(208, 208, 238);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(36, 36, 76);
+    font-size: 6vmin;
+    margin: 4vmin 0 5vmin 0;
+}
+h6{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(36, 36, 76);
+    font-size: 4vmin;
+    margin: 4vmin 0 5vmin 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 15vmin);
+    grid-template-rows: repeat(3, 15vmin);
+    gap: 2vmin;
+}
+
+.box {
+    border: none;
+    border-radius: 2vmin;
+    background-color: rgb(221, 221, 246);
+    box-shadow: 0 0 1vmin rgb(160, 160, 194);
+    color: rgb(42, 42, 84);
+    font-size: 8vmin;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    background-color: rgb(200, 200, 240);
+}
+
+#reset {
+    display: block;
+    margin: 4vmin auto;
+    padding: 1vmin 2vmin;
+    border-radius: 2vmin;
+    border: none;
+    font-size: 4vmin;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+     color: rgb(181, 174, 226);
+    background-color: rgb(43, 43, 58);
+}
+
+#reset:hover {
+    color: rgb(25, 25, 75);
+    background-color:rgb(138, 138, 174);
+}
+.hide{
+    display:none
+}
+
+#new-game {
+    display: block;
+    margin: 4vmin auto;
+    padding: 1vmin 2vmin;
+    border-radius: 2vmin;
+    border: none;
+    font-size: 4vmin;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+     color: rgb(181, 174, 226);
+    background-color: rgb(43, 43, 58);
+}
+
+#new-game:hover {
+    color: rgb(25, 25, 75);
+    background-color:rgb(138, 138, 174);
+}
